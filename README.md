@@ -1,9 +1,12 @@
 # D3
-Implementation of D3 article
+Add: An Adaptive Approach with Variety Characteristic of High-Bandwidth Networks for Distributed Denial of Service Attacks Detection
 
-Current Issues:
-- [ ] the sqrt method in math.h library will break the code ( It is used to calculate the variance)
-- [ ] the sliding window of R and V doesn't fully understand
-- [ ] appending ratio metrics R and actual v in the case of no DDoS doesn't understand
-- [ ] Is it able to detect the victims or just trigger the alert
-- [ ] It currently just triggers the alert because the IP keys are not stored anywhere we just use their hash to index and count the throughput
+Features Timeline:
+- [x] Packet Rx/Tx with DPDK
+- [x] SR/IOV Multi core processing
+- [x] Forwarding packets
+- [x] WMA detection
+- [x] Feature extraction 
+- [x] Application layer classification
+- [x] Flow state table
+- [x] Alert 
