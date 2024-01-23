@@ -1,5 +1,5 @@
-# D3
-Add: An Adaptive Approach with Variety Characteristic of High-Bandwidth Networks for Distributed Denial of Service Attacks Detection
+# ADD
+An Adaptive Approach with Variety Characteristic of High-Bandwidth Networks for Distributed Denial of Service Attacks Detection
 
 Features Timeline:
 - [x] Packet Rx/Tx with DPDK
